@@ -10,6 +10,8 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+
 	</head>
 	<body>
 		<Header />
@@ -54,7 +56,6 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 				}
 			}
 
-			// Initialize the CMS object
 
 
 			if (window.netlifyIdentity) {
