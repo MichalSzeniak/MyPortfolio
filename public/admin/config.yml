@@ -7,8 +7,8 @@ publish_mode: editorial_workflow
 # media_folder: public/images
 # public_folder: /images
 
-media_folder: "assets" # Location where files will be stored in the repo
-public_folder: "assets" # The src attribute for uploaded media
+media_folder: "/" # Location where files will be stored in the repo
+public_folder: "/" # The src attribute for uploaded media
 site_url: "https://michalszeniak.netlify.app/" # your site name
 
 collections:
