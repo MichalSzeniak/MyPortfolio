@@ -10,7 +10,6 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 	</head>
 	<body>
 		<Header />
@@ -48,7 +47,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 			</p>
 		</main>
 		<Footer />
-		<script>
+		<!-- <script>
 			declare global {
 				interface Window {
 					netlifyIdentity: any;
@@ -67,6 +66,6 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
       }
     });
   }
-		  </script>
+		  </script> -->
 	</body>
 </html>
