@@ -2,7 +2,7 @@
 title: Second post
 description: test
 pubDate: Jul 01 2022
-heroImage: "images/comment.jpg"
+heroImage: "src/assets/comment.jpg"
 ---
 
 t﻿sadsdasdasd
